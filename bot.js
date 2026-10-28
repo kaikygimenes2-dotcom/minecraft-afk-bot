@@ -73,8 +73,8 @@ function createAndRunBot() {
   // --- Bot Initialization ---
   
   const bot = mineflayer.createBot({
-    host: config.serverHost,
-    port: config.serverPort,
+    host:redescreen.minehut.gg config.serverHost,
+    port:25565 config.serverPort,
     username: config.botUsername,
     auth: 'offline',
 
